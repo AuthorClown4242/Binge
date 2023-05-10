@@ -1,0 +1,605 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="images/movie.png">
+    <title>Movie Design</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">Binge</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active"><a href="#">Home</a></li>
+                    <li class="menu-list-item"><a href="#movies">Movies</a></li>
+                    <li class="menu-list-item"><a href="#series">Series</a></li>
+                    <li class="menu-list-item"><a href="#popular">Popular</a></li>
+                    <li class="menu-list-item"><a href="#trending">Trending</a></li>
+                    <li class="menu-list-item"><a href="#anime">Anime</a></li>
+                    <li class="menu-list-item"><a href="signin.html">Sign In</a></li>
+
+                </ul>
+            </div>
+            <div class="profile-container">
+                <img class="profile-picture" src="images/profile.jpg" alt="">
+                <div class="profile-text-container">
+                    <span class="profile-text">Profile</span>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+                <div class="toggle">
+                    <i class="fas fa-moon toggle-icon"></i>
+                    <i class="fas fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <i class="left-menu-icon fas fa-search"></i>
+        <i class="left-menu-icon fas fa-home"></i>
+        <i class="left-menu-icon fas fa-users"></i>
+        <i class="left-menu-icon fas fa-bookmark"></i>
+        <i class="left-menu-icon fas fa-tv"></i>
+        <i class="left-menu-icon fas fa-hourglass-start"></i>
+        <i class="left-menu-icon fas fa-shopping-cart"></i>
+    </div>
+
+    <div class="container">
+        <div class="content-container">
+            <div class="featured-image1">
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-1.jpg');">
+                <img class="featured-title" src="images/f-t-1.png" alt="">
+                <p class="featured-desc">Two years before the Civil War, Django (Jamie Foxx), a slave, finds himself
+                    accompanying an unorthodox German bounty hunter named Dr. King Schultz (Christoph Waltz) on a
+                    mission to capture the vicious Brittle brothers. Their mission successful, Schultz frees Django, and
+                    together they hunt the South's most-wanted criminals. Their travels take them to the infamous
+                    plantation of shady Calvin Candie (Leonardo DiCaprio), where Django's long-lost wife (Kerry
+                    Washington) is still a slave.</p>
+                <button class="featured-button"
+                    onclick="window.location.href='https://www.youtube.com/watch?v=_iH0UBYDI4g&ab_channel=SonyPicturesEntertainment'">WATCH</button>
+            </div>
+        </div>
+
+            <div class="movie-list-container" id="movies">
+                <h1 class="movie-list-title">Movies</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/1.jpeg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">A sensitive and soulful man earns a living by writing
+                                personal letters for other people. Left heartbroken after his marriage ends, Theodore
+                                (Joaquin Phoenix) becomes fascinated with a new operating system which reportedly
+                                develops into an intuitive and unique entity in its own right. He starts the program and
+                                meets "Samantha" (Scarlett Johansson), whose bright voice reveals a sensitive, playful
+                                personality. Though "friends" initially, the relationship soon deepens into love.</p>
+                            <button class="movie-list-item-button"
+                                onclick="window.location.href='https://www.youtube.com/watch?v=ne6p6MfLBxc&ab_channel=WarnerBros.Pictures'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/2.jpeg" alt="">
+                            <span class="movie-list-item-title">Star Wars:Rise of the skywalker</span>
+                            <p class="movie-list-item-desc">When it's discovered that the evil Emperor Palpatine did not
+                                die at the hands of Darth Vader, the rebels must race against the clock to find out his
+                                whereabouts. Finn and Poe lead the Resistance to put a stop to the First Order's plans
+                                to form a new Empire, while Rey anticipates her inevitable confrontation with Kylo Ren.
+                                Warning: Some flashing-lights scenes in this film may affect photosensitive viewers.</p>
+                            <button class="movie-list-item-button"
+                                onclick="window.location.href='https://www.youtube.com/watch?v=8Qn_spdM5Zg&ab_channel=StarWarss'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/51.jpg" alt="">
+                            <span class="movie-list-item-title">The Terminal</span>
+                            <p class="movie-list-item-desc">When Viktor Navorski, an Eastern European
+                                tourist, arrives at JFK in New York, war breaks out in his country and he finds himself
+                                caught up in international politics. Because of the war, the Department of Homeland
+                                Security won't let him enter or exit the United States. He's trapped at JFK --
+                                indefinitely. While living at the airport, Viktor falls for a flight attendant
+                                . She may have feelings for him too. But what good is love if
+                                Viktor can't leave the terminal?</p>
+                            <button class="movie-list-item-button"
+                                onclick="window.location.href='https://www.youtube.com/watch?v=iZqQRmhRvyg&ab_channel=RottenTomatoesClassicTrailers'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/4.jpg" alt="">
+                            <span class="movie-list-item-title">1917</span>
+                            <p class="movie-list-item-desc">During World War I, two British soldiers -- Lance Cpl.
+                                Schofield and Lance Cpl. Blake -- receive seemingly impossible orders. In a race against
+                                time, they must cross over into enemy territory to deliver a message that could
+                                potentially save 1,600 of their fellow comrades -- including Blake's own brother.</p>
+                            <button class="movie-list-item-button"
+                                onclick="window.location.href='https://www.youtube.com/watch?v=YqNYrYUiMfg&ab_channel=UniversalPictures'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/5.jpg" alt="">
+                            <span class="movie-list-item-title">Avengers</span>
+                            <p class="movie-list-item-desc">When Thor's evil brother, Loki (Tom Hiddleston), gains
+                                access to the unlimited power of the energy cube called the Tesseract, Nick Fury (Samuel
+                                L. Jackson), director of S.H.I.E.L.D., initiates a superhero recruitment effort to
+                                defeat the unprecedented threat to Earth.</p>
+                            <button class="movie-list-item-button"
+                                onclick="window.location.href='https://www.youtube.com/watch?v=eOrNdBpGMv8&ab_channel=MarvelEntertainment'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/6.jpg" alt="">
+                            <span class="movie-list-item-title">Rampage</span>
+                            <p class="movie-list-item-desc">Primatologist Davis Okoye shares an unshakable bond with
+                                George, an extraordinarily intelligent, silverback gorilla that's been in his care since
+                                birth. When a rogue genetic experiment goes wrong, it causes George, a wolf and a
+                                reptile to grow to a monstrous size. As the mutated beasts embark on a path of
+                                destruction, Okoye teams up with a discredited genetic engineer and the military to
+                                secure an antidote and prevent a global catastrophe.</p>
+                            <button class="movie-list-item-button"
+                                onclick="window.location.href='https://www.youtube.com/watch?v=coOKvrsmQiI&ab_channel=WarnerBros.Pictures'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/41.jpg" alt="">
+                            <span class="movie-list-item-title">Inception</span>
+                            <p class="movie-list-item-desc">Dom Cobb (Leonardo DiCaprio) is a thief with the rare
+                                ability to enter people's dreams and steal their secrets from their subconscious. His
+                                skill has made him a hot commodity in the world of corporate espionage but has also cost
+                                him everything he loves. Cobb gets a chance at redemption when he is offered a seemingly
+                                impossible task: Plant an idea in someone's mind. If he succeeds, it will be the perfect
+                                crime, but a dangerous enemy anticipates Cobb's every move.</p>
+                            <button class="movie-list-item-button"
+                                onclick="window.location.href='https://www.youtube.com/watch?v=Qwe6qXFTdgc&ab_channel=WarnerBros.Entertainment'">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+
+            <div class="movie-list-container" id="trending">
+                <h1 class="movie-list-title">Trending</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/8.jpg" alt="">
+                            <span class="movie-list-item-title">Oblivion</span>
+                            <p class="movie-list-item-desc">In the year 2077, Jack Harper (Tom Cruise) works as a
+                                security repairman on an Earth left empty and devastated after a war with aliens. Jack
+                                has two weeks left before his mission ends and he joins his fellow survivors on a
+                                faraway colony. However, Jack's concept of reality comes crashing down after he rescues
+                                a beautiful stranger (Olga Kurylenko) from a downed spacecraft. The woman's arrival
+                                triggers a chain of events that culminates in Jack's nearly single-handed battle to save
+                                mankind.</p>
+                            <button class="movie-list-item-button"
+                                onclick="window.location.href='https://www.youtube.com/watch?v=A27xPYvqERw&ab_channel=UniversalPicturesUK'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/52.jpg" alt="">
+                            <span class="movie-list-item-title">Top Gun:Maverick</span>
+                            <p class="movie-list-item-desc">After more than 30 years of service as one of the Navy's top
+                                aviators, Pete "Maverick" Mitchell is where he belongs, pushing the envelope as a
+                                courageous test pilot and dodging the advancement in rank that would ground him.
+                                Training a detachment of graduates for a special assignment, Maverick must confront the
+                                ghosts of his past and his deepest fears, culminating in a mission that demands the
+                                ultimate sacrifice from those who choose to fly it.</p>
+                            <button class="movie-list-item-button"
+                                onclick="window.location.href='https://www.youtube.com/watch?v=giXco2jaZ_4&ab_channel=ParamountPictures'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/10.jpg" alt="">
+                            <span class="movie-list-item-title">Due Date</span>
+                            <p class="movie-list-item-desc">Peter Highman (Robert Downey Jr.) will be a dad for the
+                                first time when his wife gives birth in five days. He intends to catch a flight home
+                                from Atlanta so he can be there for the delivery, but a chance encounter with aspiring
+                                actor Ethan Tremblay (Zach Galifianakis) throws a monkey wrench into his plans.
+                                Desperate to reach his wife before their baby is born, Peter's sanity is tested when he
+                                must take a road trip cross-country with dog-toting Ethan.</p>
+                            <button class="movie-list-item-button"
+                                onclick="window.location.href='https://www.youtube.com/watch?v=hEtu68oxBfc&ab_channel=WarnerBros.Pictures'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/53.jpg" alt="">
+                            <span class="movie-list-item-title">A Beautiful Mind</span>
+                            <p class="movie-list-item-desc">A human drama inspired by events in the life of John Forbes
+                                Nash Jr., and in part based on the biography "A Beautiful Mind" by Sylvia Nasar. From
+                                the heights of notoriety to the depths of depravity, John Forbes Nash Jr. experienced it
+                                all. A mathematical genius, he made an astonishing discovery early in his career and
+                                stood on the brink of international acclaim. But the handsome and arrogant Nash soon
+                                found himself on a painful and harrowing journey of self-discovery.
+                            </p>
+                            <button class="movie-list-item-button"
+                                onclick="window.location.href='https://www.youtube.com/watch?v=9wZM7CQY130&ab_channel=DeFilmBlog'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/54.jpg" alt="">
+                            <span class="movie-list-item-title">The Shawshank Redemption</span>
+                            <p class="movie-list-item-desc">Andy Dufresne is sentenced to two consecutive
+                                life terms in prison for the murders of his wife and her lover and is sentenced to a
+                                tough prison. However, only Andy knows he didn't commit the crimes. While there, he
+                                forms a friendship with Red, experiences brutality of prison life,
+                                adapts, helps the warden, etc., all in 19 years.</p>
+                            <button class="movie-list-item-button" onclick="window.location.href=''">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/20.jpg" alt="">
+                            <span class="movie-list-item-title">Skyscraper</span>
+                            <p class="movie-list-item-desc">Will Sawyer is a former FBI agent and U.S. war veteran who
+                                now assesses security for skyscrapers. While he's on assignment in China, the world's
+                                tallest and safest building catches on fire -- and Will gets framed for it. Now a wanted
+                                man and on the run, he must find those responsible, clear his name and somehow rescue
+                                his family members when they become trapped inside the inferno.</p>
+                            <button class="movie-list-item-button"
+                                onclick="window.location.href='https://www.youtube.com/watch?v=t9QePUT-Yt8&ab_channel=UniversalPictures'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/21.jpg" alt="">
+                            <span class="movie-list-item-title">TheBatman</span>
+                            <p class="movie-list-item-desc">Batman ventures into Gotham City's underworld when a
+                                sadistic killer leaves behind a trail of cryptic clues. As the evidence begins to lead
+                                closer to home and the scale of the perpetrator's plans become clear, he must forge new
+                                relationships, unmask the culprit and bring justice to the abuse of power and corruption
+                                that has long plagued the metropolis.</p>
+                            <button class="movie-list-item-button"
+                                onclick="window.location.href='https://www.youtube.com/watch?v=mqqft2x_Aa4&ab_channel=WarnerBros.Pictures'">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+
+            <div class="movie-list-container" id="popular">
+                <h1 class="movie-list-title">Popular</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/42.jpg" alt="">
+                            <span class="movie-list-item-title">No Time To Die</span>
+                            <p class="movie-list-item-desc">James Bond is enjoying a tranquil life in Jamaica after
+                                leaving active service. However, his peace is short-lived as his old CIA friend, Felix
+                                Leiter, shows up and asks for help. The mission to rescue a kidnapped scientist turns
+                                out to be far more treacherous than expected, leading Bond on the trail of a mysterious
+                                villain who's armed with a dangerous new technology.</p>
+                            <button class="movie-list-item-button"
+                                onclick="window.location.href='https://www.youtube.com/watch?v=A9bAepYiDRI&ab_channel=UniversalPicturesIndia'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/43.jpg" alt="">
+                            <span class="movie-list-item-title">Pulp Fiction</span>
+                            <p class="movie-list-item-desc">Vincent Vega and Jules Winnfield
+                                are hitmen with a penchant for philosophical discussions. In this ultra-hip,
+                                multi-strand crime movie, their storyline is interwoven with those of their boss,
+                                gangster Marsellus Wallace ; his actress wife, Mia ;
+                                struggling boxer Butch Coolidge ; master fixer Winston Wolfe
+                                and a nervous pair of armed robbers, "Pumpkin" and "Honey Bunny".</p>
+                            <button class="movie-list-item-button"
+                                onclick="window.location.href='https://www.youtube.com/watch?v=5ZAhzsi1ybM&ab_channel=RottenTomatoesClassicTrailers'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/44.jpg" alt="">
+                            <span class="movie-list-item-title">Intestellar</span>
+                            <p class="movie-list-item-desc">In Earth's future, a global crop blight and second Dust Bowl
+                                are slowly rendering the planet uninhabitable. Professor Brand, a
+                                brilliant NASA physicist, is working on plans to save mankind by transporting Earth's
+                                population to a new home via a wormhole. But first, Brand must send former NASA pilot
+                                Cooper and a team of researchers through the wormhole and across
+                                the galaxy to find out which of three planets could be mankind's new home.</p>
+                            <button class="movie-list-item-button"
+                                onclick="window.location.href='https://www.youtube.com/watch?v=2LqzF5WauAw&ab_channel=InterstellarMovie'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/45.jpg" alt="">
+                            <span class="movie-list-item-title">The Hangover</span>
+                            <p class="movie-list-item-desc">Two days before his wedding, Doug and three
+                                friends drive to Las Vegas for a wild and
+                                memorable stag party. In fact, when the three groomsmen wake up the next morning, they
+                                can't remember a thing; nor can they find Doug. With little time to spare, the three
+                                hazy pals try to re-trace their steps and find Doug so they can get him back to Los
+                                Angeles in time to walk down the aisle.</p>
+                            <button class="movie-list-item-button"
+                                onclick="window.location.href='https://www.youtube.com/watch?v=tlize92ffnY&ab_channel=WarnerBros.'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/46.jpg" alt="">
+                            <span class="movie-list-item-title">The Godfather</span>
+                            <p class="movie-list-item-desc">Widely regarded as one of the greatest films of all time,
+                                this mob drama, based on Mario Puzo's novel of the same name, focuses on the powerful
+                                Italian-American crime family of Don Vito Corleone . When the don's
+                                youngest son, Michael, reluctantly joins the Mafia, he becomes involved in
+                                the inevitable cycle of violence and betrayal. Although Michael tries to maintain a
+                                normal relationship with his wife, Kay , he is drawn deeper into the
+                                family business.</p>
+                            <button class="movie-list-item-button"
+                                onclick="window.location.href='https://www.youtube.com/watch?v=UaVTIH8mujA&ab_channel=ParamountPictures'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/47.jpg" alt="">
+                            <span class="movie-list-item-title">Silence Of The Lambs</span>
+                            <p class="movie-list-item-desc">Jodie Foster stars as Clarice Starling, a top student at the
+                                FBI's training academy. Jack Crawford wants Clarice to interview Dr.
+                                Hannibal Lecter , a brilliant psychiatrist who is also a violent
+                                psychopath, serving life behind bars for various acts of murder and cannibalism.
+                                Crawford believes that Lecter may have insight into a case and that Starling, as an
+                                attractive young woman, may be just the bait to draw him out.</p>
+                            <button class="movie-list-item-button"
+                                onclick="window.location.href='https://www.youtube.com/watch?v=W6Mm8Sbe__o&ab_channel=RottenTomatoesClassicTrailers'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/22.jpg" alt="">
+                            <span class="movie-list-item-title">The Bullet Train</span>
+                            <p class="movie-list-item-desc">Ladybug is an unlucky assassin who's determined to do his
+                                job peacefully after one too many gigs has gone off the rails. Fate, however, may have
+                                other plans as his latest mission puts him on a collision course with lethal adversaries
+                                from around the globe -- all with connected yet conflicting objectives -- on the world's
+                                fastest train.</p>
+                            <button class="movie-list-item-button"
+                                onclick="window.location.href='https://www.youtube.com/watch?v=0IOsk2Vlc4o&ab_channel=SonyPicturesEntertainment'">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+
+            <div class="movie-list-container" id="new">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/27.jpg" alt="">
+                            <span class="movie-list-item-title">Sonic The Hedgehog2</span>
+                            <p class="movie-list-item-desc">After settling in Green Hills, Sonic is eager to prove that
+                                he has what it takes to be a true hero. His test comes when Dr. Robotnik returns with a
+                                new partner, Knuckles, in search of a mystical emerald that has the power to destroy
+                                civilizations. Sonic teams up with his own sidekick, Tails, and together they embark on
+                                a globe-trotting journey to find the emerald before it falls into the wrong hands.</p>
+                            <button class="movie-list-item-button"
+                                onclick="window.location.href='https://www.youtube.com/watch?v=G5kzUpWAusI&ab_channel=ParamountPictures'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/25.jpg" alt="">
+                            <span class="movie-list-item-title">Dr Strange:Multiverse Of Madness</span>
+                            <p class="movie-list-item-desc">Doctor Strange teams up with a mysterious teenage girl from
+                                his dreams who can travel across multiverses, to battle multiple threats, including
+                                other-universe versions of himself, which threaten to wipe out millions across the
+                                multiverse.</p>
+                            <button class="movie-list-item-button"
+                                onclick="window.location.href='https://www.youtube.com/watch?v=aWzlQ2N6qqg&ab_channel=MarvelEntertainment'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/19.jpg" alt="">
+                            <span class="movie-list-item-title">The Amazing Spider-Man 2 </span>
+                            <p class="movie-list-item-desc">Confident in his powers as Spider-Man, Peter Parker
+                                embraces his new role as a hero and spends time with Gwen Stacy
+                                in between protecting New York from criminals. However, his greatest battle yet is about
+                                to begin. With the emergence of Electro, Peter must confront an enemy far
+                                more powerful than he is. And when his old friend Harry Osborn returns,
+                                Peter comes to realize that all his enemies have one thing in common: Oscorp.</p>
+                            <button class="movie-list-item-button"
+                                onclick="window.location.href='https://www.youtube.com/watch?v=nbp3Ra3Yp74&ab_channel=SonyPicturesEntertainment'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/55.jpg" alt="">
+                            <span class="movie-list-item-title">Fight Club</span>
+                            <p class="movie-list-item-desc">A depressed man (Edward Norton) suffering from insomnia
+                                meets a strange soap salesman named Tyler Durden (Brad Pitt) and soon finds himself
+                                living in his squalid house after his perfect apartment is destroyed. The two bored men
+                                form an underground club with strict rules and fight other men who are fed up with their
+                                mundane lives. Their perfect partnership frays when Marla (Helena Bonham Carter), a
+                                fellow support group crasher, attracts Tyler's attention.
+                            </p>
+                            <button class="movie-list-item-button" onclick="window.location.href='https://www.youtube.com/watch?v=qtRKdVHc-cE&ab_channel=RottenTomatoesClassicTrailers'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/23.jpg" alt="">
+                            <span class="movie-list-item-title">Dont't Look Up</span>
+                            <p class="movie-list-item-desc">Two low-level astronomers must go on a giant media tour to
+                                warn mankind of an approaching comet that will destroy planet Earth.</p>
+                            <button class="movie-list-item-button" onclick="window.location.href=''https://www.youtube.com/watch?v=RbIxYm3mKzI&ab_channel=Netflix">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/24.jpg" alt="">
+                            <span class="movie-list-item-title">Jurrasic World Dominion</span>
+                            <p class="movie-list-item-desc">Four years after the destruction of Isla Nublar, dinosaurs
+                                now live and hunt alongside humans all over the world. This fragile balance will reshape
+                                the future and determine, once and for all, whether human beings are to remain the apex
+                                predators on a planet they now share with history's most fearsome creatures.</p>
+                            <button class="movie-list-item-button" onclick="window.location.href='https://www.youtube.com/watch?v=fb5ELWi-ekk&ab_channel=UniversalPictures'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/26.jpg" alt="">
+                            <span class="movie-list-item-title">Uncharted</span>
+                            <p class="movie-list-item-desc">Treasure hunter Victor "Sully" Sullivan recruits
+                                street-smart Nathan Drake to help him recover a 500-year-old lost fortune amassed by
+                                explorer Ferdinand Magellan. What starts out as a heist soon becomes a globe-trotting,
+                                white-knuckle race to reach the prize before the ruthless Santiago Moncada can get his
+                                hands on it. If Sully and Nate can decipher the clues and solve one of the world's
+                                oldest mysteries, they stand to find $5 billion in treasure -- but only if they can
+                                learn to work together.</p>
+                            <button class="movie-list-item-button" onclick="window.location.href='https://www.youtube.com/watch?v=eHp3MbsCbMg&ab_channel=SonyPicturesEntertainment'">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="featured-image2">
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-1.jpg');">
+                <img class="featured-title" src="images/50.jpg" alt="">
+                <p class="featured-desc">Tom Ellis as Lucifer Morningstar: Lord of Hell, Lucifer, after becoming
+                    bored with his life, abandoning his throne for five years, becomes a civilian consultant for the
+                    Los Angeles Police Department while running his own high-end nightclub called Lux.</p>
+                <button class="featured-button" onclick="window.location.href='https://www.youtube.com/watch?v=X4bF_quwNtw&ab_channel=Lucifer'">WATCH</button>
+            </div>
+            </div>
+            <div class="movie-list-container" id="series">
+                <h1 class="movie-list-title">Series</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/28.jpg" alt="">
+                            <span class="movie-list-item-title">Breaking Bad</span>
+                            <p class="movie-list-item-desc">The mishaps of two drug dealers trying to survive in the
+                                complicated and corrupted world of crime, leading them from the point of working for
+                                money to working to survive; all starting with an honest high school teacher trying
+                                to make money for his family after finding out cancer hadn't left him much time.</p>
+                            <button class="movie-list-item-button" onclick="window.location.href='https://www.youtube.com/watch?v=HhesaQXLuRY&ab_channel=TrailerBlend'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/29.jpg" alt="">
+                            <span class="movie-list-item-title">Watchmen</span>
+                            <p class="movie-list-item-desc">Set in an alternate history where masked vigilantes are
+                                treated as outlaws and must embrace the nostalgia, Detective Angela Abar
+                                investigates the reemergence of a white supremacist terrorist group inspired by the
+                                long-deceased moral absolutist Rorschach.</p>
+                            <button class="movie-list-item-button" onclick="window.location.href='https://www.youtube.com/watch?v=7RhBjI9dPe4&ab_channel=RottenTomatoesTV'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/30.jpg" alt="">
+                            <span class="movie-list-item-title">Narcos Mexico</span>
+                            <p class="movie-list-item-desc">Narcos is an American-Colombian crime drama television
+                                series created and produced by Chris Brancato, Carlo Bernard, and Doug Miro. Set and
+                                filmed in Colombia, seasons 1 and 2 are based on the story of drug kingpin Pablo
+                                Escobar, who became a billionaire through the production and distribution of
+                                cocaine.</p>
+                            <button class="movie-list-item-button" onclick="window.location.href='https://www.youtube.com/watch?v=xl8zdCY-abw&ab_channel=NetflixAsia'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/31.jpg" alt="">
+                            <span class="movie-list-item-title">The Boys</span>
+                            <p class="movie-list-item-desc">"The Boys" is set in a universe in which superpowered
+                                people are recognized as heroes by the general public and owned by a powerful
+                                corporation, Vought International, which ensures that they are aggressively marketed
+                                and monetized. Outside of their heroic personas, most are arrogant and corrupt.</p>
+                            <button class="movie-list-item-button" onclick="window.location.href='https://www.youtube.com/watch?v=5SKP1_F7ReE&ab_channel=PrimeVideoAU%26NZ'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/32.jpg" alt="">
+                            <span class="movie-list-item-title">House Of The Dragons</span>
+                            <p class="movie-list-item-desc">Based on material from George R. R. Martin's book Fire &
+                                Blood, House of the Dragon tells the story of the Dance of Dragons and the events
+                                leading up to the brutal civil war. King Viserys I Targaryen rules over an
+                                unprecedented time of peace, but questions about his succession threaten to send the
+                                realm into chaos.</p>
+                            <button class="movie-list-item-button" onclick="window.location.href='https://www.youtube.com/watch?v=DotnJ7tTA34&ab_channel=HBOMax'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/33.jpg" alt="">
+                            <span class="movie-list-item-title">Peaky Blinders</span>
+                            <p class="movie-list-item-desc">Peaky Blinders is a crime drama centred on a family of
+                                mixed Irish Traveller and Romani origins based in Birmingham, England, starting in
+                                1919, several months after the end of the First World War. It centres on the Peaky
+                                Blinders street gang and their ambitious, cunning crime boss Tommy Shelby.
+                            </p>
+                            <button class="movie-list-item-button" onclick="window.location.href='https://www.youtube.com/watch?v=X3PGOaEfCmQ&ab_channel=LukeLewisVideoEditing'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/49.jpg" alt="">
+                            <span class="movie-list-item-title">Chernobyl</span>
+                            <p class="movie-list-item-desc">Chernobyl is a 2019 historical tragedy television
+                                miniseries that revolves around the Chernobyl disaster of 1986 and the cleanup
+                                efforts that followed. The series was created and written by Craig Mazin and
+                                directed by Johan Renck.</p>
+                            <button class="movie-list-item-button" onclick="window.location.href='https://www.youtube.com/watch?v=s9APLXM9Ei8&ab_channel=HBO'">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="featured-image3">
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-1.jpg');">
+                <img class="featured-title" src="images/f-t-3.png" alt="">
+                <p class="featured-desc">The series focuses on Asta, a young orphan who is left to be raised in
+                    an orphanage alongside his fellow orphan, Yuno. While everyone is born with the ability to
+                    utilize mana in the form of magical power, Asta, with no magic instead focuses on physical
+                    strength.</p>
+                <button class="featured-button" onclick="window.location.href='https://www.youtube.com/watch?v=hv3WO5c9WEs&ab_channel=AnimeBlurayUK'">WATCH</button>
+            </div>
+        </div>
+            <div class="movie-list-container" id="anime">
+                <h1 class="movie-list-title">Anime</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/34.jpg" alt="">
+                            <span class="movie-list-item-title">Deathnote</span>
+                            <p class="movie-list-item-desc">Death Note follows a high school student who comes
+                                across a supernatural notebook, realizing it holds within it a great power; if
+                                the owner inscribes someone's name into it while picturing their face, he or she
+                                will die.</p>
+                            <button class="movie-list-item-button" onclick="window.location.href='https://www.youtube.com/watch?v=NlJZ-YgAt-c&ab_channel=CrunchyrollCollection'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/35.jpg" alt="">
+                            <span class="movie-list-item-title">Dragon Ball Super</span>
+                            <p class="movie-list-item-desc">A sequel to Toriyama's original Dragon Ball manga,
+                                it follows the adventures of Goku and friends during the ten-year timeskip after
+                                the defeat of Majin Buu. It began serialization in Shueisha's monthly shōnen
+                                manga magazine V Jump in June 2015.</p>
+                            <button class="movie-list-item-button" onclick="window.location.href='https://www.youtube.com/watch?v=giKGGDfT0DQ&ab_channel=buczy'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/36.jpg" alt="">
+                            <span class="movie-list-item-title">Naruto</span>
+                            <p class="movie-list-item-desc">Naruto is a Japanese manga series written and
+                                illustrated by Masashi Kishimoto. It tells the story of Naruto Uzumaki, a young
+                                ninja who seeks recognition from his peers and dreams of becoming the Hokage,
+                                the leader of his village.</p>
+                            <button class="movie-list-item-button" onclick="window.location.href='https://www.youtube.com/watch?v=yeUpnIKt6k4&ab_channel=vizmedia'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/37.jpg" alt="">
+                            <span class="movie-list-item-title">Demon Slayer</span>
+                            <p class="movie-list-item-desc">A boy raised by boars, who wears a boar's head,
+                                boards the Infinity Train on a new mission with the Flame Pillar along with
+                                another boy who reveals his true power when he sleeps. Their mission is to
+                                defeat a demon who has been tormenting people and killing the demon slayers who
+                                oppose it.</p>
+                            <button class="movie-list-item-button" onclick="window.location.href='https://www.youtube.com/watch?v=VQGCKyvzIM4&ab_channel=AniplexUSA'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/38.jpg" alt="">
+                            <span class="movie-list-item-title">One Piece</span>
+                            <p class="movie-list-item-desc">The series focuses on Monkey D. Luffy, a young man
+                                made of rubber, who, inspired by his childhood idol, the powerful pirate
+                                Red-Haired Shanks, sets off on a journey from the East Blue Sea to find the
+                                mythical treasure, the One Piece, and proclaim himself the King of the Pirates.
+                            </p>
+                            <button class="movie-list-item-button" onclick="window.location.href='https://www.youtube.com/watch?v=LHTYpWI3S6Q&ab_channel=Cinema24Horas'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/39.jpg" alt="">
+                            <span class="movie-list-item-title">The Seven Deadly Sins</span>
+                            <p class="movie-list-item-desc">The story of the Seven Deadly Sins, a group of
+                                warriors who were wrongly accused of a crime they didn't commit and went on a
+                                quest to vindicate themselves. The Seven Deadly Sins were once an active group
+                                of knights in the region of Britannia, who disbanded after they supposedly
+                                plotted to overthrow the Liones Kingdom.</p>
+                            <button class="movie-list-item-button" onclick="window.location.href='https://www.youtube.com/watch?v=wxcvbL6o55M&ab_channel=Netflix'">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/40.jpg" alt="">
+                            <span class="movie-list-item-title">Attack On Titan</span>
+                            <p class="movie-list-item-desc">Eren Yeager joins a scout regiment to fight and
+                                exterminate Titans, a race of giant humanoid monsters that once attacked his
+                                village and killed everyone he loved.</p>
+                            <button class="movie-list-item-button" onclick="window.location.href='https://www.youtube.com/watch?v=bT9csxkth8g&ab_channel=TheMeltDown'">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
